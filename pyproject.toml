@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "configback"
+dynamic = ["version"]
+description = "Back up and restore developer configuration files across Linux, macOS, and Windows."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [
+    {name = "ConfigBack Contributors"},
+]
+keywords = ["config", "backup", "restore", "migration", "developer", "dotfiles"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Environment :: MacOS X",
+    "Environment :: Win32 (MS Windows)",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: System :: Archiving :: Backup",
+    "Topic :: Utilities",
+]
+
+[project.optional-dependencies]
+encryption = ["cryptography>=41.0"]
+
+[project.urls]
+Homepage = "https://github.com/configback/configback"
+Repository = "https://github.com/configback/configback"
+
+[project.scripts]
+configback = "configback:main"
+
+[tool.setuptools.dynamic]
+version = {attr = "configback.__version__"}
+
+[tool.setuptools]
+py-modules = ["configback"]

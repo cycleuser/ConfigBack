@@ -1,0 +1,3 @@
+# Required (none - configback works with stdlib only)
+# Optional: uncomment for encryption support
+cryptography>=41.0
