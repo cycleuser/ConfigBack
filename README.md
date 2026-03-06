@@ -38,7 +38,7 @@ pip install configback[encryption]
 Or install from source:
 
 ```bash
-git clone https://github.com/configback/configback.git
+git clone https://github.com/cycleuser/configback.git
 cd configback
 pip install .
 ```

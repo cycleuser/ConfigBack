@@ -38,7 +38,7 @@ pip install configback[encryption]
 从源码安装：
 
 ```bash
-git clone https://github.com/configback/configback.git
+git clone https://github.com/cycleuser/configback.git
 cd configback
 pip install .
 ```
