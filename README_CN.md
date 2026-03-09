@@ -168,7 +168,10 @@ GUI 提供三个选项卡：
 - **Restore（恢复）**: 浏览归档文件、选择类别、试运行选项
 - **List（列表）**: 浏览和检查归档内容的树形视图
 
-![GUI 截图](screenshots/gui_backup.png)
+![选择项目来进行备份](./images/0-select.png)
+
+
+![选择项目来进行恢复](./images/1-restore.png)
 
 ### 全局选项
 

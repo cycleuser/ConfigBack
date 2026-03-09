@@ -168,7 +168,12 @@ The GUI provides three tabs:
 - **Restore**: Browse for archive, select categories, dry-run option
 - **List**: Browse and inspect archive contents in a tree view
 
-![GUI Screenshot](screenshots/gui_backup.png)
+
+
+![Select items to backup](./images/0-select.png)
+
+
+![Select items to restore](./images/1-restore.png)
 
 ### Global Options
 
