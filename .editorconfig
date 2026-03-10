@@ -1,0 +1,16 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false  # Markdown 换行需保留尾部空格
+
+[Makefile]
+end_of_line = lf
+
+[*.bat]
+end_of_line = crlf  # Windows 批处理文件例外

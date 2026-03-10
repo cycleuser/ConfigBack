@@ -1,0 +1,33 @@
+* text=auto eol=lf
+
+# 二进制文件显式声明
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.bmp binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.7z binary
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+
+# 脚本文件保留可执行语义（行尾仍为 LF）
+*.sh text eol=lf
+*.py text eol=lf
+*.pl text eol=lf
+*.rb text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.ini text eol=lf
+*.cfg text eol=lf
+*.conf text eol=lf
